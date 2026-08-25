@@ -39,7 +39,7 @@ export function Hero() {
           </div>
 
           <p className="mt-10 text-[0.78rem] tracking-wide text-muted-foreground">
-            Atendimento presencial e online • São Paulo e todo o Brasil
+            Atendimento presencial para São Paulo e online para todo o Brasil
           </p>
         </div>
 
