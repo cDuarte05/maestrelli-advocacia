@@ -146,3 +146,8 @@
     animation: none;
   }
 }
+
+/* Oculta o badge "Edit with Lovable" em publicações/preview */
+aside[aria-label="Edit with Lovable"] {
+  display: none !important;
+}
