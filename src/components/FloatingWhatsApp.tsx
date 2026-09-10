@@ -7,9 +7,9 @@ export function FloatingWhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Falar pelo WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex size-14 items-center justify-center rounded-full bg-[#128C7E] text-white shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+      className="fixed bottom-6 right-6 z-50 flex size-14 items-center justify-center rounded-full bg-[#5A8C7A] text-white shadow-soft transition-all duration-300 hover:scale-110 hover:shadow-lift focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
     >
-      <span className="absolute inset-0 rounded-full bg-[#128C7E] opacity-70 animate-ping" aria-hidden="true" />
+      <span className="absolute inset-0 rounded-full bg-[#5A8C7A] opacity-60 animate-slow-ping" aria-hidden="true" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
