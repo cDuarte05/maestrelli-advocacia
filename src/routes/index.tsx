@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { Faq, faqs } from "@/components/Faq";
 import { FinalCta } from "@/components/FinalCta";
 import { Contact } from "@/components/Contact";
+import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 
 const title = "Marcela Maestrelli | Advocacia de Família e Sucessões em SP";
@@ -63,6 +64,7 @@ function Index() {
         <Contact />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
