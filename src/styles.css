@@ -145,22 +145,6 @@
   .fade-up {
     animation: none;
   }
-  .animate-slow-ping {
-    animation: none;
-  }
-}
-
-/* Botão flutuante WhatsApp — pulso mais suave e lento */
-.animate-slow-ping {
-  animation: slowPing 3s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-@keyframes slowPing {
-  75%,
-  100% {
-    transform: scale(1.8);
-    opacity: 0;
-  }
 }
 
 /* Oculta o badge "Edit with Lovable" em publicações/preview */
